@@ -25,7 +25,9 @@ v_pm_prob = ((1/t_mean)*d_std)-((d_mean/t_mean**2)*t_std)
 
 print(f'v_mean: {round(v_mean,2)} ± {round(v_pm_prob,2)}')
 
-# A pie
+# Calcular el listado de velocidades (vs y vs_numpy) a partir de los pares de tiempo y distancia:
+
+## A pie
 vs = []
 
 for t in ts:
@@ -34,20 +36,24 @@ for t in ts:
 
 print(vs)
 
-# Con numpy
+## Con numpy
 ts = np.array(ts)
 print(ts)
 vs_numpy = d_mean/ts
 print(vs_numpy)
 
-v_mean = vs_numpy.mean()
-print(v_mean)
-v_mean = np.mean(vs)
-print(v_mean)
+# Calcular el promedio y desviación estandard de las velocidades
 
-v_std = vs_numpy.std()
-print(v_std)
+## A pie
+v_mean = np.mean(vs)
 v_std = np.std(vs,ddof=1)
+print(v_mean)
+print(v_std)
+
+## Con numpy
+v_mean = vs_numpy.mean()
+v_std = vs_numpy.std()
+print(v_mean)
 print(v_std)
 
 

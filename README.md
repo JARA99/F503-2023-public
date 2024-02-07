@@ -28,6 +28,8 @@ git submodule add https://github.com/JARA99/F503-2024-public.git
 Los contenidos de este repositorio son los siguientes:
 
 * [**Introducción:**](Introduccion) Contiene el cuaderno y script de los ejercicios realizados las primeras semanas de clase.
+* [**Data:**](data) Contiene archivos `.csv` de datos que serán utilizados para ejercicios, tareas y prácticas.
+* [**Recursos:**](resources) Contiene explicaciones, procedimientos y resúmenes útilies.
 
 
 
