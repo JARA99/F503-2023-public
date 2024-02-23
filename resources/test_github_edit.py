@@ -7,5 +7,6 @@ st.title('Titulo 1')
 
 data = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/penguins.csv')
 
+st.bar(data['species'])
 st.table(data)
 
