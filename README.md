@@ -2,6 +2,15 @@
 
 En este repositorio encontrarán el código que realicemos en clase. Si desean pueden clonarlo a un directorio separado a su repositorio personal, también pueden agregarlo como un submodulo al repositorio del curso.
 
+## Premiados Actuales
+
+| Hacker | Debugger | Skinner|
+|:-:|:-:|:-:|
+| <img src="readme_imgs/hacker.png" alt="### Hacker" title="Hacker" style="display: inline-block; margin: 0px auto; max-width: 150px; border-radius: 50%"> | <img src="readme_imgs/debugger.png" alt="### Hacker" title="Hacker" style="display: inline-block; margin: 0px auto; max-width: 150px; border-radius: 50%"> | <img src="readme_imgs/skinner.png" alt="### Hacker" title="Hacker" style="display: inline-block; margin: 0px auto; max-width: 150px; border-radius: 50%"> |
+| - | - | - |
+|  |  |  |
+
+
 ## Clonar el repositorio
 
 Para clonar el repositorio en algún directorio deseado deben realizar lo siguiente:
