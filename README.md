@@ -6,7 +6,7 @@ En este repositorio encontrarán el código que realicemos en clase. Si desean p
 
 | Hacker | Debugger | Skinner|
 |:-:|:-:|:-:|
-| <img src="readme_imgs/hacker.png" alt="### Hacker" title="Hacker" style="display: inline-block; margin: 0px auto; max-width: 150px; border-radius: 50%"> | <img src="readme_imgs/debugger.png" alt="### Hacker" title="Hacker" style="display: inline-block; margin: 0px auto; max-width: 150px; border-radius: 50%"> | <img src="readme_imgs/skinner.png" alt="### Hacker" title="Hacker" style="display: inline-block; margin: 0px auto; max-width: 150px; border-radius: 50%"> |
+| ![](readme_imgs/hacker.png) | ![](readme_imgs/debugger.png) | ![](readme_imgs/skinner.png) |
 | - | - | - |
 |  |  |  |
 
