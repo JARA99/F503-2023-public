@@ -6,7 +6,7 @@ En este repositorio encontrarán el código que realicemos en clase. Si desean p
 
 | Hacker | Debugger | Skinner|
 |:-:|:-:|:-:|
-| ![](readme_imgs/hacker.png) | ![](readme_imgs/debugger.png) | ![](readme_imgs/skinner.png) |
+| ![](.readme_imgs/hacker.png) | ![](.readme_imgs/debugger.png) | ![](.readme_imgs/skinner.png) |
 | - | - | - |
 |  |  |  |
 
@@ -36,9 +36,10 @@ git submodule add https://github.com/JARA99/F503-2024-public.git
 
 Los contenidos de este repositorio son los siguientes:
 
-* [**Introducción:**](Introduccion) Contiene el cuaderno y script de los ejercicios realizados las primeras semanas de clase.
 * [**Data:**](data) Contiene archivos `.csv` de datos que serán utilizados para ejercicios, tareas y prácticas.
 * [**Recursos:**](resources) Contiene explicaciones, procedimientos y resúmenes útilies.
 * [**Tareas**](tareas) Contiene los enunciados de las tareas.
-
+* [**Unidades**](Unidades) Contiene las carpetas ordenadas por unidad, dentro de cada una se colocan los archivos de clase pertinentes a dicha unidad.
+  1. [**Introducción**](Unidades/1-Introduccion/)
+  2. [**Distribuciones**](Unidades/2-Distribuciones/)
 
