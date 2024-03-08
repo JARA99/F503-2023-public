@@ -7,7 +7,7 @@ En este repositorio encontrarán el código que realicemos en clase. Si desean p
 | Hacker | Debugger | Skinner|
 |:-:|:-:|:-:|
 | ![](.readme_imgs/hacker.png) | ![](.readme_imgs/debugger.png) | ![](.readme_imgs/skinner.png) |
-| - | - | - |
+| Mario <br> Fabricio <br> Giovanna| - | Diego |
 |  |  |  |
 
 
