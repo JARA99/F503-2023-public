@@ -6,7 +6,9 @@ from matplotlib import pyplot as plt
 import numpy
 import pandas
 import math
+from scipy import optimize as sciopt
 import streamlit as st
+
 
 # Funcion de distribucion binomial
 def binomial(x,n,p,q):
@@ -17,6 +19,11 @@ def binomial(x,n,p,q):
     q_nx = q**(n-x)
 
     return comb*p_x*q_nx
+
+def binomial2(x,n,p):
+    return binomial(x,n,p,1-p)
+
+binomial2 = lambda x,n,p: binomial(x,n,p,1-p)
 
 # eval_ = binomial(100,600,1/6,5/6)
 # eval_ = binomial(n=600,x=100,p=1/6,q=5/6)
@@ -46,14 +53,19 @@ data_table = pandas.DataFrame({'x':lista})
 # print('Lambda:',f(7))
 
 data_table['Pb'] = data_table.apply(lambda row: binomial(row['x'],n,p,q), axis=1)
+data_table['Pb_err'] = data_table['Pb'] + (numpy.random.random((n+1)))*0.01
 print(data_table)
+
+out = sciopt.curve_fit(binomial,data_table['x'],data_table['Pb_err'])
+
+print(out)
 
 
 binomial_plot, axis = plt.subplots()
-axis.bar(data_table['x'],data_table['Pb'])
-axis.plot(data_table['x'],data_table['Pb'],color='C1')
+axis.bar(data_table['x'],data_table['Pb_err'])
+# axis.bar(data_table['x'],data_table['Pb'],color='C1')
 # plt.show()
-binomial_plot.savefig('imagen.png')
+# binomial_plot.savefig('imagen.png')
 
 #########################################################################################################
 # Streamlit ########################################################################################################
