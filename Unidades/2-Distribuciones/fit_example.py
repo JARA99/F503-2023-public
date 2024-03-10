@@ -33,7 +33,7 @@ print(f'data:\n{data}')
 
 data = data.loc[:m]
 
-counts_non_sort = data['GM'].value_counts()
+counts_non_sort = data['GS'].value_counts()
 counts = pd.DataFrame(np.zeros(11))
 # print(counts)
 
