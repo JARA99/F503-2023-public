@@ -9,23 +9,19 @@ import plotly.express as px
 m = 100
 
 def binom(x,n,p):
-    print('binom(',x,n,p,')')
-
-    if isinstance(x,np.ndarray):
-        # print('float:',x)
-        x = x.astype(int)
-    else:
-        # print('else:',x)
-        x = int(x)
-
+    # print('binom(',x,n,p,')')
+    
+    x = int(x)
     n = int(n)
         
-    comb = np.vectorize(math.comb)(n,x)
+    comb = math.comb(n,x)
     p_x = p**x
     q_nx = (1-p)**(n-x)
 
     return comb*p_x*q_nx
     # return A * scs.binom.pmf(x,n,p)
+
+binom = np.vectorize(binom)
 
 
 data = pd.read_csv('Binomial-fichas.csv')
