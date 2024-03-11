@@ -1,4 +1,4 @@
-# file: fit.py
+# file: fit_example.py
 
 import numpy as np
 import pandas as pd
@@ -42,6 +42,8 @@ print(f'normalized counts: {list(counts[0]/m)}')
 
 
 fit, cov_mat = sco.curve_fit(binom,counts.index.values,counts[0]/m,[10,0.5],bounds=[(0,0),(np.inf,1)])
+
+print(f'Fit:\n{fit}\ncov_mat\n{cov_mat}')
 
 n = fit[0]
 p = fit[1]
