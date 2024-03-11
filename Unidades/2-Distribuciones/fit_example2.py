@@ -1,6 +1,5 @@
-# file: fit.py
+# file: fit_example2.py
 
-import numpy as np
 import pandas as pd
 from matplotlib import pyplot as plt
 from scipy import stats as ss
