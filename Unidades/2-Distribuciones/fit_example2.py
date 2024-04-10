@@ -14,3 +14,7 @@ fitted_results = ss.fit(ss.binom,data,bounds=[(0,100),(0,1)])
 print(fitted_results)
 fitted_results.plot()
 plt.show()
+
+
+
+
